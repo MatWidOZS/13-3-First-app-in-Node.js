@@ -1,6 +1,8 @@
 process.stdin.setEncoding('utf-8'); //ustawienie enkodowania na UTF-8 (domyślnie szesnastkowe)
 
-console.log(process.env);
+console.log(process.versions);
+
+console.log(process.env.lang);
 
 console.log('\n\nType "/exit" to quit app');
 
